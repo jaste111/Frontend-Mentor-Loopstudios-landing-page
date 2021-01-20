@@ -1,19 +1,20 @@
 body {
-    background-color: black;
-    width: 73%;
-    margin: auto;
+  background-color: black;
+  width: 73%;
+  margin: auto;
 }
 
-
 /* Top-Section */
+
 .top-section {
-    background-image: url(images/desktop/image-hero.jpg);
-    height: 600px;
+  background-image: url(images/desktop/image-hero.jpg);
+  background-repeat: none;
+  height: 600px;
 }
 
 .logo {
-    padding-top: 5%;
-    padding-left: 5%;
+  padding-top: 5%;
+  padding-left: 5%;
 }
 
 .menu-bar {
@@ -21,10 +22,10 @@ body {
 }
 
 .top-section a {
-    color: white;
-    font-weight: 700;
-    padding: 0 25px;
-    text-decoration: none;
+  color: white;
+  font-weight: 700;
+  padding: 0 25px;
+  text-decoration: none;
 }
 
 .banner {
@@ -34,7 +35,7 @@ body {
   height: 250px;
   position: relative;
   left: 150px;
-  line-height: 60px;
+  line-height: 1;
   padding: 30px;
 }
 
@@ -46,7 +47,49 @@ body {
   width: 550px;
   height: 250px;
   text-transform: uppercase;
-  
+}
+
+
+/* Middle Section */
+
+.middle-section {
+  background-color: white;
+}
+
+.vr-user-image {
+ position: relative;
+ left: 150px;
+ top: 130px;
+ z-index: 0;
+}
+
+.company-description {
+  z-index: 2;
+  position: relative;
+  top:300px;
+  background-color: white;
+  height: 400px;
+  padding: 90px;
+}
+
+.company-headline {
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  width: 400px;
+  line-height: 1;
+  margin-bottom: 50px;
+}
+
+.company-text {
+  font-weight: 500;
+  color: grey;
+  line-height: 1.8;
+}
+
+/* Image Section */
+.image-section {
+  background-color: white;
 }
 
 /* attribution */
