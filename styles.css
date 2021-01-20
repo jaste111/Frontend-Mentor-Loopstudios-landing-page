@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    width: 73%;
+    margin: auto;
+}
+
+
+/* Top-Section */
+.top-section {
+    background-image: url(images/desktop/image-hero.jpg);
+    height: 600px;
+}
+
+.logo {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.menu-bar {
+  margin-top: 5%;
+}
+
+.top-section a {
+    color: white;
+    font-weight: 700;
+    padding: 0 25px;
+    text-decoration: none;
+}
+
+.banner {
+  border-style: solid;
+  color: white;
+  width: 550px;
+  height: 250px;
+  position: relative;
+  left: 150px;
+  line-height: 60px;
+  padding: 30px;
+}
+
+.banner-text {
+  color: white;
+  font-size: 4rem;
+  font-weight: 200;
+  word-spacing: 10px;
+  width: 550px;
+  height: 250px;
+  text-transform: uppercase;
+  
+}
+
+/* attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
