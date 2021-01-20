@@ -53,6 +53,8 @@ body {
 
 .middle-section {
   background-color: white;
+  width: 75%;
+  margin: auto;
 }
 
 .vr-user-image {
