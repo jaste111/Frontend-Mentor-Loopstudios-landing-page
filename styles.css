@@ -1,14 +1,13 @@
 body {
-  background-color: black;
-  width: 73%;
-  margin: auto;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
-
 /* Top-Section */
 
 .top-section {
   background-image: url(images/desktop/image-hero.jpg);
-  background-repeat: none;
+  background-repeat: no-repeat;
+  background-size: 100%;
   height: 600px;
 }
 
@@ -90,6 +89,8 @@ body {
 /* Image Section */
 .image-section {
   background-color: white;
+  position: relative;
+  top: 300px;
 }
 
 /* attribution */
@@ -99,4 +100,10 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+
+.card {
+  width: 300px;
+  display: inline-block;
 }
