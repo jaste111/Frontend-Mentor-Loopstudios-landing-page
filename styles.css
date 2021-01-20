@@ -93,6 +93,23 @@ body {
   background-color: white;
   position: relative;
   top: 300px;
+  left: 140px;
+}
+
+.our-creation {
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0 0 50px 0;
+  text-transform: uppercase;
+}
+
+.btn {
+  border-style: solid;
+  border-color: black;
+  border-radius: 0;
+  width: 120px;
+  letter-spacing: 2px;
 }
 
 /* attribution */
